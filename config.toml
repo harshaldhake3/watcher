@@ -1,0 +1,10 @@
+filepaths = ["./"]
+
+[drives]
+"/" = true
+"/mnt/data" = true
+"/mnt/data2" = true
+
+[services]
+systemctl = ["sshd", "auto-pstate"]
+service = []
